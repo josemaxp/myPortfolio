@@ -70,11 +70,16 @@
       </div>
     </div>
     <div class="contact-me">
-      <p>-Añadir mis proyectos-</p>
+      <p>(Añadir mis proyectos)</p>
       <a class="button-two" href="#">Hire Me</a> </div>
     <footer>
+<<<<<<< Updated upstream
       <p>José Manuel Marín</p>
       <p>For more informatión, here you can see my LinkedIn and my GitHub
+=======
+      <p>Jose Manuel Marin</p>
+      <p>For more information, here you can see my LinkedIn and my GitHub
+>>>>>>> Stashed changes
         profile</p>
       <div class="social"> <a href="https://www.linkedin.com/in/josemanuelmarindominguez/"
 
