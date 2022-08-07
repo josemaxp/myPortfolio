@@ -5,7 +5,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Josefin%20Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
 
       crossorigin="anonymous" referrerpolicy="no-referrer">
   </head>
@@ -18,12 +20,11 @@
           <li><a href="#about"> About Me </a></li>
           <li><a href="#cv"> CV </a></li>
           <li><a href="#proyects"> My Proyects </a></li>
-          <li><a href="#"> Contact Me </a></li>
         </ul>
-        <a href="#" class="btn"> Suscribe </a> </nav>
+        <a href="#" class="btn"> Contact Me </a> </nav>
       <div class="content">
         <h4>Hello, my name is</h4>
-        <h1>José Manuel <span>Marín</span></h1>
+        <h1>Jose Manuel <span>Marin</span></h1>
         <h3>I'm a Programmer and Environmentalist</h3>
         <div class="newslatter">
           <form> <input name="email" id="mail" placeholder="Enter Your Email" type="email">
@@ -50,10 +51,11 @@
         <div class="card"> <i class="fas fa-file-pdf"></i>
           <h5>Spanish CV</h5>
           <div class="pra">
-            <p class="cvtext">Aquí puedes tanto ver como descargar mi Currículum
+            <p class="cvtext">Aqui puedes tanto ver como descargar mi Curriculum
               Vitae en castellano.</p>
-            <p style="text-align: center;"> <a class="button" href="https://drive.google.com/file/d/136bN7GEZSKa-TV20XeO9O62LJ8n-DbA4/view?usp=sharing" target="_blank">Descargar</a>
-            </p>
+            <p style="text-align: center;"> <a class="button" href="https://drive.google.com/file/d/136bN7GEZSKa-TV20XeO9O62LJ8n-DbA4/view?usp=sharing"
+
+                target="_blank">Descargar</a> </p>
           </div>
         </div>
         <div class="card"> <i class="fas fa-file-pdf"></i>
@@ -67,16 +69,18 @@
         </div>
       </div>
     </div>
-    <div class="contact-me">
+    <div class="proyects" id="proyects">
       <p>In process...</p>
       <a class="button-two" href="#">Hire Me</a> </div>
     <footer>
-      <p>José Manuel Marín</p>
+      <p>Jose Manuel Marin</p>
       <p>For more information, here you can see my LinkedIn and my GitHub
         profile</p>
-      <div class="social"> 
-        <a href="https://www.linkedin.com/in/josemanuelmarindominguez/" target="_blank"><i class="fab fa-linkedin"></i></a> 
-        <a href="https://github.com/josemaxp" target="_blank"><i class="fab fa-github"></i></a> </div>
+      <div class="social"> <a href="https://www.linkedin.com/in/josemanuelmarindominguez/"
+
+          target="_blank"><i class="fab fa-linkedin"></i></a> <a href="https://github.com/josemaxp"
+
+          target="_blank"><i class="fab fa-github"></i></a> </div>
     </footer>
   </body>
 </html>
