@@ -70,6 +70,9 @@
       </div>
     </div>
     <div class="proyects" id="proyects">
+      <div class="title">
+        <h2>My Projects</h2>
+      </div>
       <div class="box">
         <div class="card"> <i class="fas fa-file-pdf"></i>
           <h5>API</h5>
@@ -100,11 +103,11 @@
           </div>
         </div>
       </div>
-      <a class="button-two" href="#">Hire Me</a> </div>
+      <a class="button-two" href="#">Hire Me</a> 
+    </div>
     <footer>
       <p>Jose Manuel Marin</p>
-      <p>For more information, here you can see my LinkedIn and my GitHub
-        profile</p>
+      <p>You can see my LinkedIn for more information or my GitHub for my projects.</p>
       <div class="social"> <a href="https://www.linkedin.com/in/josemanuelmarindominguez/"
 
           target="_blank"><i class="fab fa-linkedin"></i></a> <a href="https://github.com/josemaxp"
