@@ -92,9 +92,10 @@
         <div class="card"> <i class="fas fa-file-pdf"></i>
           <h5>CSIC</h5>
           <div class="pra">
-            <p class="cvtext">Currently I'm in a . </p>
-            <p style="text-align: center;"> <a class="button" href="#">CSIC Web</a>
+            <p class="cvtext">Currently I'm in a project from my thesis. The research of my thesis collected information about <i>Fulica cristata</i>, a bird that, from all over Europe, lives mainly in province of Cadiz.
+              The objective of this project is to collect all this information on the CSIC website.
             <p style="text-align: center;"> <a class="button" href="#">My Thesis</a>
+            <p style="text-align: center;"> <a class="button" href="#">CSIC Web</a>
             </p>
           </div>
         </div>
