@@ -25,7 +25,7 @@
         <a href="#" class="btn"> Suscribe </a> </nav>
       <div class="content">
         <h4>Hello, my name is</h4>
-        <h1>José Manuel <span>Marín</span></h1>
+        <h1>Jose Manuel <span>Marin</span></h1>
         <h3>I'm a Programmer and Environmentalist</h3>
         <div class="newslatter">
           <form> <input name="email" id="mail" placeholder="Enter Your Email" type="email">
@@ -52,7 +52,7 @@
         <div class="card"> <i class="fas fa-file-pdf"></i>
           <h5>Spanish CV</h5>
           <div class="pra">
-            <p class="cvtext">Aquí puedes tanto ver como descargar mi Currículum
+            <p class="cvtext">Aqui puedes tanto ver como descargar mi Curriculum
               Vitae en castellano.</p>
             <p style="text-align: center;"> <a class="button" href="#">Descargar</a>
             </p>
@@ -70,10 +70,10 @@
       </div>
     </div>
     <div class="contact-me">
-      <p>-Añadir mis proyectos-</p>
+      <p>(Añadir mis proyectos)</p>
       <a class="button-two" href="#">Hire Me</a> </div>
     <footer>
-      <p>José Manuel Marín</p>
+      <p>Jose Manuel Marin</p>
       <p>For more informatión, here you can see my LinkedIn and my GitHub
         profile</p>
       <div class="social"> <a href="https://www.linkedin.com/in/josemanuelmarindominguez/"
