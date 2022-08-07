@@ -52,7 +52,7 @@
           <div class="pra">
             <p class="cvtext">Aquí puedes tanto ver como descargar mi Currículum
               Vitae en castellano.</p>
-            <p style="text-align: center;"> <a class="button" href="https://drive.google.com/file/d/136bN7GEZSKa-TV20XeO9O62LJ8n-DbA4/view?usp=sharing">Descargar</a>
+            <p style="text-align: center;"> <a class="button" href="https://drive.google.com/file/d/136bN7GEZSKa-TV20XeO9O62LJ8n-DbA4/view?usp=sharing" target="_blank">Descargar</a>
             </p>
           </div>
         </div>
