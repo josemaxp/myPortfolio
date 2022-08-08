@@ -21,11 +21,11 @@
           <li><a href="#cv"> CV </a></li>
           <li><a href="#proyects"> My Proyects </a></li>
         </ul>
-        <a href="#" class="btn"> Contact Me </a> </nav>
+        <a href="mailto:josemaxp@gmail.com" class="btn"> Contact Me </a> </nav>
       <div class="content">
         <h4>Hello, my name is</h4>
         <h1>Jose Manuel <span>Marin</span></h1>
-        <h3>I'm a Programmer and Environmentalist</h3>
+        <h3>Programmer and Environmentalist</h3>
         <div class="newslatter">
           <form> <input name="email" id="mail" placeholder="Enter Your Email" type="email">
             <input name="submit" value="Let's start" type="submit"> </form>
@@ -74,29 +74,31 @@
         <h2>My Projects</h2>
       </div>
       <div class="box">
-        <div class="card"> <i class="fas fa-file-pdf"></i>
+        <div class="card"> <i class="fas fa-puzzle-piece"></i>
           <h5>API</h5>
           <div class="pra">
-            <p class="cvtext">API created for an android app with most of the trails and routes of the province of Cadiz. </p>
-            <p style="text-align: center;"> <a class="button-two" href="https://josemaxp.github.io/jsonapi/senderoscadiz.json"
-
-                target="_blank">More info</a> </p>
-          </div>
-        </div>
-        <div class="card"> <i class="fas fa-file-pdf"></i>
-          <h5>Android apps</h5>
-          <div class="pra">
-            <p class="cvtext"> Two Android apps. On of them is for selling products to big companies and the other is an agricultural app. Both are currently in progress.</p>
-            <p style="text-align: center;"> <a class="button-two" style="pointer-events: none" href="#">More info</a>
+            <p class="cvtext">API created for an android app with most of the trails and routes of the province of Cadiz. Data obtained from Junta de Andalucia.</p>
+            <p style="text-align: center;"> 
+              <a class="button-two" href="https://josemaxp.github.io/jsonapi/senderoscadiz.json" target="_blank">More info</a> 
             </p>
           </div>
         </div>
-        <div class="card"> <i class="fas fa-file-pdf"></i>
+        <div class="card"> <i class="fab fa-android"></i>
+          <h5>Android apps</h5>
+          <div class="pra">
+            <p class="cvtext"> Two android apps. On of them is for selling products to large companies. The other one is an agricultural application. Both are currently in process.</p>
+            <p style="text-align: center;"> <a class="button-two" style="pointer-events: none" href="#">No information yet</a>
+            </p>
+          </div>
+        </div>
+        <div class="card"> <i class="fas fa-flask"></i>
           <h5>CSIC</h5>
           <div class="pra">
-            <p class="cvtext"> With the research of my thesis I collected information about <em>Fulica cristata</em>, a bird that, from all over Europe, lives mainly in province of Cadiz.
+            <p class="cvtext"> With the research of my thesis I collected information about <em>Fulica cristata</em>, a bird that, from all over Europe, lives mainly in the province of Cadiz.
               Now I'm collecting all this information on the CSIC website.
-            <p style="text-align: center;"> <a class="button-two" href="#">My Thesis</a> <a class="button-two" href="#">CSIC Web</a>
+            <p style="text-align: center;"> 
+              <a class="button-two" href="https://drive.google.com/file/d/1jE9nzOsURP9L7t61bXdSiruSWUKZDYhr/view?usp=sharing" target="_blank">My Thesis</a> 
+              <a class="button-two" href="http://www.vertebradosibericos.org/presentacion.html" target="_blank">CSIC Web</a>
             </p>
           </div>
         </div>
