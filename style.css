@@ -245,15 +245,23 @@ h5{
 	border: 2px solid #f9004d;
 	cursor: pointer;
 }
+
 .proyects {
 	width: 100%;
-	height: 290px;
+	height: 700px;
 	background: #191919;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
 }
+
+.proyects .card{
+	background: #101010;
+	height: 400px;
+	width: 400px;
+}
+
 .proyects p{
 	color: white;
 	font-size: 30px;
@@ -261,19 +269,31 @@ h5{
 	margin-bottom: 25px;
 }
 .proyects .button-two{
-	background-color:#f9004d;
+	background-color: #f9004d;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
 	padding: 13px 30px;
 	border-radius: 30px;
-	transition: .4s; 
+	transition: .4s;
 }
 .proyects .button-two:hover{
 	background-color: transparent;
 	border: 2px solid #f9004d;
 	cursor: pointer;
+}
+
+.proyects .cvtext{
+	text-align: center;
+	height: 150px;
+}
+
+.proyects .pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
 }
 
 footer{

@@ -77,32 +77,30 @@
         <div class="card"> <i class="fas fa-file-pdf"></i>
           <h5>API</h5>
           <div class="pra">
-            <p class="cvtext">I've created an API with most of the trails and routes in the province of Cadiz. I made it for an Android Application. </p>
-            <p style="text-align: center;"> <a class="button" href="https://josemaxp.github.io/jsonapi/senderoscadiz.json"
+            <p class="cvtext">API created for an android app with most of the trails and routes of the province of Cadiz. </p>
+            <p style="text-align: center;"> <a class="button-two" href="https://josemaxp.github.io/jsonapi/senderoscadiz.json"
 
                 target="_blank">More info</a> </p>
           </div>
         </div>
         <div class="card"> <i class="fas fa-file-pdf"></i>
-          <h5>Android Apps</h5>
+          <h5>Android apps</h5>
           <div class="pra">
-            <p class="cvtext">I'm making two android apps. On of them is for selling products and the other is an agricultural app. Both are currently in progress.</p>
-            <p style="text-align: center;"> <a class="button" aria-disabled="true" href="#">More info</a>
+            <p class="cvtext"> Two Android apps. On of them is for selling products to big companies and the other is an agricultural app. Both are currently in progress.</p>
+            <p style="text-align: center;"> <a class="button-two" style="pointer-events: none" href="#">More info</a>
             </p>
           </div>
         </div>
         <div class="card"> <i class="fas fa-file-pdf"></i>
           <h5>CSIC</h5>
           <div class="pra">
-            <p class="cvtext">Currently I'm in a project from my thesis. The research of my thesis collected information about <em>Fulica cristata</em>, a bird that, from all over Europe, lives mainly in province of Cadiz.
-              The objective of this project is to collect all this information on the CSIC website.
-            <p style="text-align: center;"> <a class="button" href="#">My Thesis</a>
-            <p style="text-align: center;"> <a class="button" href="#">CSIC Web</a>
+            <p class="cvtext"> With the research of my thesis I collected information about <em>Fulica cristata</em>, a bird that, from all over Europe, lives mainly in province of Cadiz.
+              Now I'm collecting all this information on the CSIC website.
+            <p style="text-align: center;"> <a class="button-two" href="#">My Thesis</a> <a class="button-two" href="#">CSIC Web</a>
             </p>
           </div>
         </div>
       </div>
-      <a class="button-two" href="#">Hire Me</a> 
     </div>
     <footer>
       <p>Jose Manuel Marin</p>
