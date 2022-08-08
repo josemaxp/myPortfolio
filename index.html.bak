@@ -40,7 +40,8 @@
           <p>I'm a programmer and environmentalist passionate about computing
             and nature. My goal is to help solve environmental problems through
             my experience and computer skills.</p>
-          <button type="button">Let's Talk</button> </div>
+          <a class="button" href="https://wa.me/683164956" target="_blank">Let's Talk</a> 
+        </div>
       </div>
     </section>
     <div class="cv" id="cv">
@@ -95,7 +96,7 @@
           <h5>CSIC</h5>
           <div class="pra">
             <p class="cvtext"> With the research of my thesis I collected information about <em>Fulica cristata</em>, a bird that, from all over Europe, lives mainly in the province of Cadiz.
-              Now I'm collecting all this information on the CSIC website.
+              Now I am compiling all this information on the CSIC website.
             <p style="text-align: center;"> 
               <a class="button-two" href="https://drive.google.com/file/d/1jE9nzOsURP9L7t61bXdSiruSWUKZDYhr/view?usp=sharing" target="_blank">My Thesis</a> 
               <a class="button-two" href="http://www.vertebradosibericos.org/presentacion.html" target="_blank">CSIC Web</a>
