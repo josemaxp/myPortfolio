@@ -140,16 +140,13 @@
     <script>
     {
       const topbtn = document.querySelector(".gotopbtn");
-      let lastScrollY = window.scrollY;
 
       window.addEventListener("scroll", () => {
-        if(lastScrollY < window.scrollY){
+        if(window.scrollY > 100){
           topbtn.classList.add("topbtn--hidden");
-        }else if(lastScrollY < 100){
+        }else {
           topbtn.classList.remove("topbtn--hidden");
         }
-
-        lastScrollY = window.scrollY;
       })
     }   
     </script>
