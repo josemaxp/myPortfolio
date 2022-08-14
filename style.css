@@ -285,6 +285,11 @@ h5{
 	cursor: pointer;
 }
 
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+	transform: translateY(-3%);
+}
+
 .proyects {
 	width: 100%;
 	height: 700px;
@@ -299,6 +304,11 @@ h5{
 	background: #101010;
 	height: 400px;
 	width: 400px;
+	margin: 0px;
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+  position: relative;
 }
 
 .proyects p{
@@ -334,6 +344,26 @@ h5{
 	line-height: 27px;
 	margin-bottom: 25px;
 }
+
+.swiper{
+	width: 90%;
+   height: 100%;
+}
+
+.swiper-button-next, .swiper-button-prev{
+	color: white !important;
+	
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #f9004d !important;
+}
+
+
+.swiper-button-next:hover, .swiper-pagination:hover, .swiper-button-prev:hover{
+	color: #f9004d !important;
+}
+
 
 footer{
 	position: relative;
@@ -397,6 +427,7 @@ footer p:nth-child(2){
   color: white;
   font-size: 22px;
   display: none;
+  z-index: 1;
 }
 
 .gotopbtn:hover{
