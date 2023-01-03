@@ -9,9 +9,15 @@ window.addEventListener("scroll", () => {
 })
 
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-  slidesPerGroup: 3,
+  slidesPerView: 1,
+  spaceBetween: 10,
+  breakpoints: {
+    800: {
+      slidesPerView: 3,
+      spaceBetweenSlides: 30,
+      slidesPerGroup: 3,
+    },
+  },
   loop: true,
   loopFillGroupWithBlank: true,
   pagination: {
@@ -23,3 +29,4 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+  

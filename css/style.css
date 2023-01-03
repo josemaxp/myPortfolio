@@ -564,11 +564,15 @@ footer p:nth-child(2){
 		width: 100%;
 	}
 
+	.newslatter{
+		width: 100%;
+		padding-right: 10%;
+	 }
+
 	.main{
 		display: flex;
 		flex-direction: column;
 	}
-
 
 	.about-text {
 		margin-top: 5%;
