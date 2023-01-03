@@ -4,14 +4,39 @@
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
+	word-break: break-word;
 }
 
 .hero{
-	height: 100vh;
+	height: auto;
+	padding-bottom: 5%;
 	width: 100%;
-	background-image: url(sw2.jpg);
+	display: flex;
+	flex-direction: column;
+	background-image: url(../images/background.jpg);
 	background-size: cover;
 	background-position: center;
+}
+
+.menu .content .divMeImg{
+	height: 100%;
+	width: 100%;
+}
+
+.content{
+	margin-top: 5%;
+	margin-left: 8%;
+}
+
+.divMeImg{
+	height: auto;
+	width: auto;
+	margin-top: 5%;
+	margin-left: 8%;
+}
+
+.contentImg{
+	display: flex;
 }
 
 nav{
@@ -25,7 +50,7 @@ nav{
 
 .logo{
 	color: white;
-	font-size: 35px;
+	font-size: clamp(10px,5vw, 35px);
 	letter-spacing: 1px;
 	cursor: pointer;
 }
@@ -35,7 +60,6 @@ span{
 }
 
 nav ul li{
-	list-syle-type: none;
 	display: inline-block;
 	padding: 10px 25px;
 }
@@ -53,13 +77,13 @@ nav ul li a:hover{
 }
 
 .btn{
-    	background-color: #f9004d;
-    	color: white;
-    	text-decoration: none;
-   	border: 2px solid transparent;
-    	font-weight: bold;
-    	padding: 10px 25px;
-    	border-radius: 30px;
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 1% 1%;
+	border-radius: 30px;
 	transition: transform .4s;
 }
 
@@ -67,42 +91,31 @@ nav ul li a:hover{
 	transform: scale(1.2);
 }
 
-.content{
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-}
-
 .meImg{
 	height: auto;
-	width: 430px;
+	width: auto;
 	border: 10px solid #101010;
 	border-radius: 50%;
 	background-color: #191919;
-	display: block;
-	margin-top: 100px;
-	margin-left: 60%;
-  	margin-right: 40%	;
 }
 
 
 h1{
     color: white;
     margin: 20px 0px 20px;
-    font-size: 75px;|
+    font-size: clamp(35px,5vw, 75px);
 }
 
 h3{
 	color:white;
-    	font-size:25px;
-    	margin-bottom:50px;
+    font-size:clamp(15px,5vw, 25px);
+    margin-bottom:50px;
 }
 
 h4{
 	color:#fcfc;
-    	letter-spacing:2px;
-    	font-size:20px;
+    letter-spacing:2px;
+    font-size:clamp(10px,5vw, 20px);
 }
 
 .newslatter form{
@@ -139,20 +152,17 @@ h4{
 	padding: 100px 0px;
 	background-color: #191919;
 }
+
 .about img{
 	height: auto;
-	width: 430px;
+	width: auto;
 	border: 10px solid #101010;
 	border-radius: 50%;
 	background-color: #101010;
 }
 
-.about-text{
-	width: 550px;
-}
-
 .main{
-	width: 1130px;
+	width: 100%;
 	max-width: 95%;
 	margin: 0 auto;
 	display: flex;
@@ -160,9 +170,19 @@ h4{
 	justify-content: space-around;
 }
 
+.divSwMe .about-text{
+	height: 100%;
+	width: 100%;
+}
+
+.about-text {
+	margin-left: 3%;
+	width: 100%;
+}
+
 .about-text h2{
 	color: white;
-	font-size: 75px;
+	font-size: clamp(35px,5vw, 75px);
 	text-transform: capitalize;
 	margin-bottom: 20px;
 }
@@ -170,7 +190,7 @@ h4{
 .about-text h5{
 	color: white;
 	letter-spacing: 2px;
-	font-size: 22px;
+	font-size: clamp(12px,5vw, 22px);
 	margin-bottom: 25px;
 	text-transform: capitalize;
 }
@@ -178,7 +198,7 @@ h4{
 	color: #fcfc;
 	letter-spacing: 1px;
 	line-height: 28px;
-	font-size: 18px;
+	font-size: clamp(8px,5vw, 18px);
 	margin-bottom: 45px;
 }
 
@@ -188,10 +208,11 @@ h4{
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
-	padding: 13px 30px;
+	padding: 1% 3%;
 	border-radius: 30px;
 	transition: .4s;
 }
+
 .about .button-two:hover{
 	background-color: transparent;
 	border: 2px solid #f9004d;
@@ -208,6 +229,7 @@ button{
 	border-radius: 30px;
 	transition: .4s; 
 }
+
 button:hover{
 	background-color: transparent;
 	border: 2px solid #f9004d;
@@ -219,22 +241,25 @@ button:hover{
 	width: 100%;
 	padding: 100px 0px;
 }
+
 .title h2{
 	color: white;
-	font-size: 75px;
-	width: 1130px;
+	font-size: clamp(35px,5vw, 75px);
+	width: 100%;
 	margin: 30px auto;
 	text-align: center;
 }
+
 .box{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 400px;
 }
+
 .card{
-	height: 365px;
-	width: 335px;
+	height: 100%;
+	width: 25%;
 	padding: 20px 35px;
 	background: #191919;
 	border-radius: 20px;
@@ -243,8 +268,9 @@ button:hover{
 	overflow: hidden;
 	text-align: center;
 }
+
 .card i{
-	font-size: 50px;
+	font-size: clamp(25px,5vw, 50px);
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
@@ -253,32 +279,40 @@ button:hover{
 }
 h5{
 	color: white;
-	font-size: 23px;
+	font-size: clamp(10px,5vw, 30px);
 	margin-bottom: 15px;
 }
 
 .cvtext{
-	height: 90px;
+	height: auto;
 	text-align: center;
+	font-size: clamp(13px,5vw, 30px);
+}
+
+.pra{
+	display: flex;
+	flex-direction: column;
 }
 
 
 .pra p{
 	color: #fcfc;
-	font-size: 16px;
+	font-size: clamp(10px,5vw, 16px);
 	line-height: 27px;
 	margin-bottom: 25px;
 }
+
 .card .button{
 	background-color:#f9004d;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
-	padding: 9px 22px;
+	padding: 3% 6%;
 	border-radius: 30px;
 	transition: .4s; 
 }
+
 .card .button:hover{
 	background-color: transparent;
 	border: 2px solid #f9004d;
@@ -292,7 +326,8 @@ h5{
 
 .proyects {
 	width: 100%;
-	height: 700px;
+	height: 100%;
+	padding-bottom: 10%;
 	background: #191919;
 	display: flex;
 	align-items: center;
@@ -302,31 +337,33 @@ h5{
 
 .proyects .card{
 	background: #101010;
-	height: 400px;
-	width: 400px;
+	height: 100%;
+	width: 100%;
 	margin: 0px;
 	margin-top: 5%;
 	display: flex;
 	flex-direction: column;
-  position: relative;
+  	position: relative;
 }
 
 .proyects p{
 	color: white;
-	font-size: 30px;
+	font-size: clamp(15px,5vw, 30px);
 	font-weight: bold;
 	margin-bottom: 25px;
 }
+
 .proyects .button-two{
 	background-color: #f9004d;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
-	padding: 13px 30px;
+	padding: 3% 6%;	
 	border-radius: 30px;
 	transition: .4s;
 }
+
 .proyects .button-two:hover{
 	background-color: transparent;
 	border: 2px solid #f9004d;
@@ -335,19 +372,24 @@ h5{
 
 .proyects .cvtext{
 	text-align: center;
-	height: 150px;
+	height: 100%;
+}
+
+.proyects .pra{
+	display: flex;
+	flex-direction: column;
 }
 
 .proyects .pra p{
 	color: #fcfc;
-	font-size: 16px;
+	font-size: clamp(10px,5vw, 16px);
 	line-height: 27px;
 	margin-bottom: 25px;
 }
 
 .swiper{
 	width: 90%;
-   height: 100%;
+   	height: 100%;
 }
 
 .swiper-button-next, .swiper-button-prev{
@@ -356,9 +398,8 @@ h5{
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #f9004d !important;
+  	background-color: #f9004d !important;
 }
-
 
 .swiper-button-next:hover, .swiper-pagination:hover, .swiper-button-prev:hover{
 	color: #f9004d !important;
@@ -368,29 +409,34 @@ h5{
 footer{
 	position: relative;
 	width: 100%;
-	height: 250px;
+	height: 100%;
+	padding-top: 3%;
 	background: #101010;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
+
 footer p:nth-child(1){
-	font-size: 30px;
+	font-size: clamp(15px,5vw, 30px);
 	color: white;
 	margin-bottom: 20px;
 	font-weight: bold;
 }
+
 footer p:nth-child(2){
 	color: white;
-	font-size: 17px;
-	width: 500px;
+	font-size: clamp(10px,5vw, 17px);
+	width: 100%;
 	text-align: center;
 	line-height: 26px;
 }
+
 .social{
 	display: flex;
 }
+
 .social a{
 	width: 45px;
 	height: 45px;
@@ -402,17 +448,19 @@ footer p:nth-child(2){
 	margin: 22px 10px;
 	color: white;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: clamp(10px,5vw, 20px);
 }
+
 .social a:hover{
 	transform: scale(1.3);
 	transition: .3s;
 }
+
 .end{
 	position: absolute;
 	color:#f9004d;
 	bottom: 35px;
-	font-size: 14px; 
+	font-size: clamp(10px,5vw, 14px); 
 }
 
 .gotopbtn{
@@ -425,7 +473,7 @@ footer p:nth-child(2){
   text-align: center;
   line-height: 50px;
   color: white;
-  font-size: 22px;
+  font-size: clamp(12px,5vw, 22px);
   display: none;
   z-index: 1;
 }
@@ -440,19 +488,89 @@ footer p:nth-child(2){
 }
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1100px){
+
+	.meImg{
+		width: 80%;
+		margin-right: auto;
+	}
+
+	.proyects .button-two{
+		display: flex;
+		flex-direction: column;
+		margin-top: 5%;
+	}
+}
+
+@media only screen and (max-width: 900px){
 	nav ul{
 		width: 100%;
-		position: absolute;
-		list-syle-type: none;
+		position: block;
 		padding: 10px 25px;
 	}
 
 	nav ul li a{
 		color: white;
-		display: inline-block;
+		display: inline-flexbox;
 		text-decoration: none;
 		font-weight: bold;
 		text-transform: capitalize;
+	}
+
+	.content h1{
+		font-size: clamp(35px,10vw, 75px);
+	}
+	
+	.content h3{
+		font-size:clamp(15px,8vw, 30px);
+	}
+	
+	.content h4{
+		font-size:clamp(10px,8vw, 30px);
+	}
+
+	.contentImg{
+		margin-top: 1%;
+		margin-left: 1%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.divMeImg{
+		width: 60%;
+	}
+
+	.box{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.btn{
+		font-size: clamp(10px, 1vw, 25px);
+	}
+
+	.button{
+		font-size: clamp(10px, 1vw, 25px);
+	}
+
+	.card{
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	.about img{
+		width: 100%;
+	}
+
+	.main{
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.about-text {
+		margin-top: 5%;
 	}
 }
