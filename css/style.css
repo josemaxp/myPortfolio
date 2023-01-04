@@ -23,6 +23,10 @@
 	width: 100%;
 }
 
+.menu{
+	padding-bottom: 5%;
+}
+
 .content{
 	margin-top: 5%;
 	margin-left: 8%;
@@ -49,6 +53,7 @@ nav{
 }
 
 .logo{
+	width: 100%;
 	color: white;
 	font-size: clamp(10px,5vw, 35px);
 	letter-spacing: 1px;
@@ -76,7 +81,10 @@ nav ul li a:hover{
 	transformation: .4s;
 }
 
+
 .btn{
+	word-break: normal;
+	width:fit-content;
 	background-color: #f9004d;
 	color: white;
 	text-decoration: none;
@@ -547,6 +555,7 @@ footer p:nth-child(2){
 	}
 
 	.btn{
+		width:fit-content;
 		font-size: clamp(10px, 1vw, 25px);
 	}
 
@@ -564,10 +573,14 @@ footer p:nth-child(2){
 		width: 100%;
 	}
 
-	.newslatter{
+	.newslatter form{
 		width: 100%;
 		padding-right: 10%;
-	 }
+	}
+
+	.newslatter form input:last-child{
+		margin-right: 10%;
+ }
 
 	.main{
 		display: flex;
@@ -576,5 +589,32 @@ footer p:nth-child(2){
 
 	.about-text {
 		margin-top: 5%;
+	}
+
+	nav{
+		display: flex;
+		flex-direction: column;
+		align-items:initial;
+		justify-content: space-between;
+		padding-top: 45px;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+
+	nav ul li{
+		width: 100%;
+	}
+
+	.divLogo{
+		width: 100%;		
+	}
+
+	.divContact{
+		width:100%;
+		padding-bottom: 10%;	
+	}
+
+	.menu{
+		padding-bottom: 10%;
 	}
 }
