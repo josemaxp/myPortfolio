@@ -8,19 +8,19 @@
             "image": "https://josemaxp.github.io/myPortfolio/birdpedy/projects/espatula.jpg",
             "date": "",
             "province": "Cádiz",
-            "pruebas": "0"
+            "debug": "0"
         }
     ],
     "activities":[
         {
-            "title": "Limes-Platalea",
-            "description": "El <b>Proyecto Limes Platalea</b> surge como respuesta a la necesidad de conocer y valorar el fenómeno migratorio de la <b>Espátula común</b> (<i>Platalea leucorodia</i>) durante la migración hacia el continente africano.\nLa Espátula común es una especie amenazada que se reproduce en Andalucía y en el Norte de Europa y migra hacia el continente africano. <b>Andalucía Occidental</b> constituye una de los lugares fundamentales para la alimentación y el descanso de las espátulas procedentes del norte de Europa Occidental.\n<c>¡Ayúdanos a censar esta ave!</c>",
-            "urlInfo": "https://limesplatalea.blogspot.com/",
-            "urlProject": "https://forms.gle/bHHCHspumG93w5tk7",
+            "title": "Salida pelágica (Chipiona)",
+            "description": "Llevamos un tiempo pensando en realizar una salida pelágica para aquellos más interesados en este grupo de aves. Partiremos del <b>Puerto de Chipiona<b> sobre las <b>08:00<b>, estando en total unas 5 horas y media (aproximadamente) en alta mar disfrutando de las aves marinas. El acceso a las plazas se harán por orden de inscripción, teniendo prioridad primeramente los coordinadores y luego universitarios.",
+            "urlInfo": "https://gouca.blog/proximas-actividades/",
+            "urlProject": "https://docs.google.com/forms/d/e/1FAIpQLSf4C6C5vnJvYBJeUVOM5kJWkZsZfkEaGcPhEV4qY1iUJY8L3A/viewform",
             "image": "https://josemaxp.github.io/myPortfolio/birdpedy/projects/espatula.jpg",
-            "date": "",
+            "date": "09/11/2024",
             "province": "Cádiz",
-            "pruebas": "1"
+            "debug": "1"
         }
     ]
 }
