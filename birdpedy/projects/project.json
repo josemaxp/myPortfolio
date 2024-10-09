@@ -8,10 +8,9 @@
             "image": "https://josemaxp.github.io/myPortfolio/birdpedy/projects/espatula.jpg",
             "date": "",
             "province": "Cádiz",
-            "debug": "0"
-        }
-    ],
-    "activities":[
+            "debug": "0",
+            "type": "project"
+        },    
         {
             "title": "Salida pelágica (Chipiona)",
             "description": "Llevamos un tiempo pensando en realizar una salida pelágica para aquellos más interesados en este grupo de aves.\nPartiremos del <b>Puerto de Chipiona</b> sobre las <b>08:00</b>, estando en total unas 5 horas y media (aproximadamente) en alta mar disfrutando de las aves marinas.\nEl acceso a las plazas se harán por orden de inscripción, teniendo prioridad primeramente los coordinadores y luego universitarios.",
@@ -20,7 +19,8 @@
             "image": "https://josemaxp.github.io/myPortfolio/birdpedy/projects/gouca.jpg",
             "date": "09/11/2024",
             "province": "Cádiz",
-            "debug": "1"
+            "debug": "1",
+            "type": "activity"
         }
     ]
 }
